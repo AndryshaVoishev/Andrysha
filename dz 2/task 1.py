@@ -1,8 +1,7 @@
-a = float(input())
-b = float(input())
-if a > b: 
-    print("a больше b")
-elif b > a: 
-    print("b больше a")
-else: 
-    print("a и b равны")
+el = []
+while True:
+    input_1 = input("Введите элемент: ")
+    if not input_1:    
+        break
+    el.append(input_1)
+print("Конечный результат:", el)
